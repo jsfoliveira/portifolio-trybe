@@ -25,6 +25,7 @@ footer {
 
 .footer-container{
     position: relative;
+    border-top: 8px solid #909090;
 }
 
 

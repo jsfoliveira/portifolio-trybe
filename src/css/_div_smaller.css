@@ -1,0 +1,59 @@
+main {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 60px;
+    padding-left: 60px;
+    background-color:rgb(216, 211, 211)
+}
+
+.texto_sobreMim {
+    font-weight: 500;
+}
+
+.div__smaller {
+    width: 43%;
+    padding-right: 40PX;
+}
+
+.line {
+    width: 80px;
+    border-top: 2px solid;
+    margin-top: 8px;
+    border-color: rgba(142, 90, 190, 0.822);
+}
+
+.tittle {
+    font-family: 'Open Sans', sans-serif;
+    margin-bottom: 0px;
+}
+
+.about__me p,
+.education_part2 {
+    text-align: justify;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.experience_part2,
+.education_part2,
+.job1 {
+    padding-left: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+}
+
+.experience_part1,
+.education_part1 {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr;
+}
+
+.experience_part1 h5,
+.education_part1 h5 {
+    color:rgba(142, 90, 190, 0.822);
+    border: 2px solid rgba(142, 90, 190, 0.822);
+    background-color: rgba(245, 245, 220, 0.521);
+    border-radius: 20%;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
